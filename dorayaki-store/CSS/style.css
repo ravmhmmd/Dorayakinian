@@ -1,0 +1,93 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    background-color: whitesmoke;
+}
+
+.header{
+    overflow: hidden;
+    background-color: #cce0bb;
+    padding: 20px 10px;
+}
+
+.header-right {
+    float: right;
+    padding-top: 30px;
+    padding-right: 40px;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    align-self: center;
+}
+
+.logo a:hover{
+    transition: .5s;
+}
+
+.button-login {
+    background-color: #F4A9CA;
+    padding: 20px 20px 20px 20px;
+    margin-top: 20px;
+    color: black;
+    cursor: pointer;
+    border: 3px solid;
+    border-radius: 18px;
+    border-color: #cce0bb;
+}
+
+.button-login:hover{
+    background-color: whitesmoke;
+    border-color: #F4A9CA;
+    transition: .2s;
+}
+
+.button-beli {
+    background-color: #F4A9CA;
+    padding: 20px 40px 20px 40px;
+    margin-top: 20px;
+    color: black;
+    cursor: pointer;
+    border: 3px solid;
+    border-radius: 18px;
+    border-color: whitesmoke;
+}
+
+.button-beli:hover{
+    background-color: whitesmoke;
+    border-color: #F4A9CA;
+    transition: .2s;
+}
+
+footer {
+    background-color: #cce0bb;
+    padding: 20px 10px;
+    text-align: center;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500px;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    margin-bottom: 20px;
+    width: 100%;
+    line-height: 50px;
+    padding-bottom: 15px;
+}

@@ -1,0 +1,191 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+
+.header{
+    overflow: hidden;
+    background-color: #cce0bb;
+    padding: 20px 10px;
+}
+
+.header-right {
+    float: right;
+    padding-top: 30px;
+    padding-right: 40px;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    align-self: center;
+}
+
+.logo a:hover{
+    transition: .5s;
+}
+
+footer {
+    background-color: #cce0bb;
+    padding: 20px 10px;
+    text-align: center;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500px;
+}
+
+.centerform {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    background-color: white;
+    border-radius: 10px;
+    height: 440px;
+}
+
+.centerform h2 {
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+    border-bottom: 1px solid black;
+}
+
+.centerform form {
+    padding: 0px 40px;
+    box-sizing: border-box;
+}
+
+.centerform-reg {
+    margin-top: 110px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    background-color: white;
+    border-radius: 10px;
+    height: 650px;
+}
+
+.centerform-reg h2 {
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+    border-bottom: 1px solid black;
+}
+
+.centerform-reg form {
+    padding: 0px 40px;
+    box-sizing: border-box;
+}
+
+form .txt_field {
+    position: relative;
+    border-bottom: 2px solid #cce0bb;
+    margin: 30px 0;
+}
+
+.txt_field input {
+    width: 100%;
+    padding: 0px 5px;
+    background: none;
+    height: 40px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+}
+
+.txt_field label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #cce0bb;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.txt_field span::before {
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #368B85;
+    transition: .5s;
+}
+
+.txt_field input:focus ~ label,
+.txt_field input:valid ~ label {
+    top: -5px;
+    color: #368B85;
+}
+
+.txt_field input:focus ~ span::before,
+.txt_field input:valid ~ span::before{
+    width: 100%;
+}
+
+input[type="submit"]{
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 18px;
+    border-color: white;
+    background: #F4A9CA;
+    font-size: 18px;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+input[type="submit"]:hover{
+    border-color: #F4A9CA;
+    transition: .5s;
+}
+
+form p a{
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+    cursor: pointer;
+    color: #2e4241;
+}
+
+form p a:hover{
+    color: #DF2E2E;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    margin-bottom: 20px;
+    width: 100%;
+    line-height: 50px;
+    padding-bottom: 15px;
+}
+
+.hplink {
+    color: #368B85;
+}
+
+.hplink:hover{
+    color: #F4A9CA;
+}
